@@ -1,3 +1,42 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+
+# Installing the required R libraries 
+library(devtools)
+install_github("GabauerDavid/ConnectednessApproach")
+install.packages("ConnectednessApproach")
+install.packages("zoo")
+install.packages("tseries")
+install.packages("forecast")
+install.packages("fGarch")
+install.packages("moments")
+install.packages("WeightedPortTest")
+
+# Libraries Loading:
+install.packages("devtools")
+library(devtools)
+install.packages("installr")
+library(installr)
+updateR()
+install_github("GabauerDavid/ConnectednessApproach")
+library(ConnectednessApproach)
+library(rmgarch)
+library("openxlsx")
+library("stargazer")
+library("parallel")
+library(knitr)
+library(devtools)
+library(quantreg)
+library(quantmod)
+library(zoo)
+library(data.table)
+library(dplyr)
+library(tseries)
+library(rugarch)
+library(forecast)
+library(fGarch)
+library(tseries)
+library(lmtest)
+library(moments)
+library(urca)
